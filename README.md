@@ -1,2 +1,2 @@
 # aws_workshop_1_web
-Frontend content for workshop kalegd is hosting
+Frontend content for live workshop kalegd is hosting
