@@ -28,5 +28,5 @@ jobs:
           find . -type f -name "*.html" ! -name "index.html" | while read file; do
             relative_path="${file#./}"
             extensionless_path="${relative_path%.html}"
-            aws s3 cp "s3://${{ secrets.DEV_S3_BUCKET }}/$relative_path" "s3://${{ secrets.DEV_S3_BUCKET }}/$extensionless_path" --region us-east-1
+            aws s3 cp "s3://${{ secrets.DEV_S3_BUCKET }}/$relative_path" "s3://${{ secrets.DEV_S3_BUCKET }}/$extensionless_path" --region ap-southeast-1
           done
