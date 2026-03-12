@@ -3,7 +3,7 @@ function handler(event) {
     var clientIp = event.viewer.ip;
 
     // Define allowed IPs
-    var allowedIps = ["150.228.179.135"];
+    var allowedIps = ["119.2.118.134"];
 
     // Check if client IP is allowed
     if (allowedIps.indexOf(clientIp) !== -1) {
